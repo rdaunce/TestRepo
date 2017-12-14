@@ -25,6 +25,7 @@ namespace NetCore
             host.Run();
         }
 
+        //oops - forgot to comment
         public static int function2() { return 2;  }
 
         public static int newFunction()
