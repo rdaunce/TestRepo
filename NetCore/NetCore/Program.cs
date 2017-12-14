@@ -11,6 +11,8 @@ namespace NetCore
     {
         public static void Main(string[] args)
         {
+            //new comment here!
+            //adding another comment in a second commit
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
