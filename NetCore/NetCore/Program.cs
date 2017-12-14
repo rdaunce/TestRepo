@@ -18,8 +18,14 @@ namespace NetCore
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
-
+            
+            //adding a comment
             host.Run();
+        }
+
+        public static int newFunction()
+        {
+            return 28;
         }
     }
 }
