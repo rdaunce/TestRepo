@@ -11,6 +11,7 @@ namespace NetCore
     {
         public static void Main(string[] args)
         {
+            //new comment here!
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
